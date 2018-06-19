@@ -1,7 +1,7 @@
 package main
 
 import (
-	"diablo/diablo-web/utils"
+	"diabloinfo/diabloinfo-web/utilities"
 	"net/http"
 	"team/team-web/routes"
 
