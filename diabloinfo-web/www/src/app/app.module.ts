@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { GlobalService } from './providers/global.service';
+import { UtilityService } from './providers/utility.service';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { GlobalService } from './providers/global.service';
     AppRoutingModule
   ],
   providers: [
-    GlobalService
+    GlobalService,
+    UtilityService
   ],
   bootstrap: [AppComponent]
 })
