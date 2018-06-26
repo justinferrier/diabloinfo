@@ -3,7 +3,7 @@ package main
 import (
 	"diabloinfo/diabloinfo-web/utilities"
 	"net/http"
-	"team/team-web/routes"
+	"diabloinfo/diabloinfo-web/routes"
 
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"

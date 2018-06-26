@@ -1,0 +1,35 @@
+.site-header {
+    background-color: gray;
+    width: 100%;
+    flex: 0 0 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.ladder-selector {
+    display: flex;
+}
+
+.season {
+    display: flex !important;
+}
+
+.season-softcore {
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    text-transform: uppercase;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.ladderDDL {
+    background-color: #333;
+    color: white;
+    border: none;
+}

@@ -9,11 +9,13 @@ import { AppComponent } from './app.component';
 
 import { GlobalService } from './providers/global.service';
 import { UtilityService } from './providers/utility.service';
+import { LeaderboardComponent } from './pages/leaderboard/leaderboard/leaderboard.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeaderboardComponent
   ],
   imports: [
     HttpModule,
